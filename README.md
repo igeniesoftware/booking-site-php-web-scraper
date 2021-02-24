@@ -11,9 +11,9 @@ At the second stage, the array of ID listings is sent to the parser, which get t
  ** config.php - array configuration settings 
  ** proxy.php  - proxy lists (array of "ip: port" strings)
  ** postFields.php - array of settings for POST request to get a list of pages
- ** mainVrbo.php - main class with all functionality
+ ** mainScraping.php - main class with all functionality
 
-##Class mainVrbo. 
+##Class mainScraping. 
 When the class is initialized, the configuration and proxy settings are received from config.php file and set up to the `$arrConfig`, `$arrCurlProxy` variables. The main class variables are also initialized, the values are taken from the appropriate configuration values.
 
 ##ConnectDB() method. 
